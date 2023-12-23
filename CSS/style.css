@@ -1,13 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
+  width: 1366px;
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 400;
   background-color: white;
   color: #122947;
+  margin: 0 auto;
 }
 
 a {
@@ -23,12 +26,12 @@ img {
   padding: 40px 98px 70px;
 }
 
-.header_menu {
+.header__wrap {
   display: flex;
   justify-content: space-between;
 }
 
-.header_nav {
+.nav {
   display: flex;
   align-items: center;
   gap: 51px;
@@ -43,7 +46,7 @@ img {
   margin-right: 0;
 }
 
-.menunav a {
+.usernav a {
   margin-right: 30px;
 }
 
@@ -51,13 +54,31 @@ img {
   margin-right: 0;
 }
 
-.container {
+.container__1 {
   max-width: 990px;
   margin: 0 auto;
   display: flex;
 }
 
-.col {
+.container__1_col {
+  flex: 1;
+}
+
+.container__2 {}
+
+.container__2_col {
+  flex: 1;
+}
+
+.container__3 {
+  background: url(../assets/images/банер\ 1.png);
+  display: flex;
+  width: 1366px;
+  height: 400px;
+  flex-shrink: 0;
+}
+
+.container__3_col {
   flex: 1;
 }
 
@@ -74,11 +95,25 @@ img {
   line-height: 140%;
 }
 
-.box {
+.box__1 {
   padding-top: 61px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
-.box__logo {
+.box__3 {
+  display: flex;
+  flex: 1;
+  padding: 81px;
+  margin-right: 115px;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+
+/*  */
+.box__1_1 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-size: 58px;
@@ -86,7 +121,27 @@ img {
   margin-bottom: 30px;
 }
 
-.box__description {
+.box__3_1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 125%;
+  margin-bottom: 30px;
+}
+
+.box__3_2 {
+  text-align: start;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+  margin-bottom: 40px;
+}
+
+.box__3_3 {
+  max-width: 141px;
+  margin: 0;
+}
+
+.box__1_2 {
   text-align: center;
   font-weight: 400;
   font-size: 18px;
@@ -94,15 +149,17 @@ img {
   margin-bottom: 40px;
 }
 
-.box__action {
+.box__1_3 {
   max-width: 141px;
   margin: 0 auto;
 }
 
 .box__btn {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   line-height: 140%;
+  width: 141px;
+  height: 41px;
   padding: 13px 27px 16px;
   display: flex;
   justify-content: center;
@@ -126,6 +183,3 @@ img {
     transform: rotate(360deg);
   }
 }
-
-
-
