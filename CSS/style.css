@@ -52,15 +52,6 @@ a {
   margin-right: 0;
 }
 
-main {
-  width: 1366px;
-}
-
-.mainCare {
-  width: 100%;
-  overflow: hidden;
-}
-
 .mainCare__wrap {
   display: flex;
   margin: 0 auto;
@@ -90,8 +81,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 auto;
-  flex-shrink: 0;
+  align-items: center;
 }
 
 .mainInfo__title {
@@ -126,35 +116,6 @@ main {
   width: 141px;
   height: 41px;
   padding: 13px 27px 16px;
-
-  border-radius: 2px;
-  border: 1px solid #b3bac1;
-}
-
-.box3__2 {
-  width: 284px;
-  height: 65px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 145%;
-  margin-bottom: 40px;
-}
-
-.box3__3 {
-  max-width: 141px;
-  margin: 0;
-}
-
-.box__btn1 {
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 140%;
-  width: 200px;
-  height: 41px;
-  padding: 13px 28px 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 2px;
   border: 1px solid #b3bac1;
 }
@@ -241,7 +202,6 @@ main {
 }
 
 .personalCareBox__title {
-  color: #122947;
   font-family: Raleway;
   font-size: 32px;
   font-weight: 500;
@@ -255,8 +215,6 @@ main {
 }
 
 .personalCareBox__text p {
-  color: #122947;
-  font-family: Mplus 1p;
   font-size: 18px;
   font-weight: 400;
   line-height: 145%;
@@ -268,8 +226,6 @@ main {
 }
 
 .personalCareBox__btn {
-  color: #122947;
-  font-family: Mplus 1p;
   font-size: 16px;
   font-weight: 500;
   line-height: 140%;
