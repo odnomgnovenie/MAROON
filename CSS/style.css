@@ -238,12 +238,51 @@ a {
   align-items: center;
 }
 
-.box__btn:hover {
-  background-color: rgb(254, 244, 244);
-  color: rgb(144, 204, 150);
+.history {
+  overflow: hidden;
 }
 
-.box__btn1:hover {
-  background-color: rgb(254, 244, 244);
-  color: rgb(144, 204, 150);
+.history__wrap {
+  background-image: url(/assets/images/600693-PMYQNV-922\ 1.jpg);
+  width: 1366px;
+  height: 433px;
+  flex-shrink: 0;
+}
+
+.historyBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  flex-shrink: 0;
+  padding-top: 100px;
+}
+
+.historyBox__text {
+  max-width: 761px;
+  margin-bottom: 50px;
+}
+
+.historyBox__text p {
+  font-family: Raleway;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  text-align: center;
+  width: 761px;
+  height: 102px;
+}
+
+.historyBox__btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+  border-radius: 2px;
+  border: 1px solid #b3bac1;
+  width: 163px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
